@@ -1,7 +1,7 @@
 import React from "react";
 import Head from "next/head";
 
-import NavBar from "./NavBar";
+import Navbar from "./Navbar";
 import Footer from "./Footer";
 
 const Layout = ({ children }) => {
@@ -11,7 +11,7 @@ const Layout = ({ children }) => {
         <title>Wawi Store</title>
       </Head>
       <header>
-        <NavBar />
+        <Navbar />
       </header>
       <main className="main-container">{children}</main>
       <footer>

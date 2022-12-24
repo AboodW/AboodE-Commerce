@@ -1,10 +1,7 @@
-//import all components
-import Navbar from "./Navbar";
-import Layout from "./Layout";
-import HeroBanner from "./HeroBanner";
-import Cart from "./Cart";
-import Product from "./Product";
-import FooterBanner from "./FooterBanner";
-import Footer from "./Footer";
-
-export { Navbar, Layout, HeroBanner, Cart, Product, FooterBanner, Footer };
+export { default as Footer } from './Footer';
+export { default as Layout } from './Layout';
+export { default as Navbar } from './Navbar';
+export { default as Product } from './Product';
+export { default as HeroBanner } from './HeroBanner';
+export { default as FooterBanner } from './FooterBanner';
+export { default as Cart } from './Cart';
